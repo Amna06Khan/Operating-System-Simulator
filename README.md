@@ -53,37 +53,23 @@ project/
     └── ...
 ⚙️ How to Run
 Compile the project:
-
-bash
-Copy
-Edit
 gcc main.c -o main
 Compile individual tasks (example):
-
-bash
-Copy
-Edit
 gcc tasks/calculator.c -o tasks/calculator
 Do the same for other .c files in the tasks/ directory.
 
 Run the OS Simulator:
-
-bash
-Copy
-Edit
 ./main
+
 📈 Learning Outcomes
 This project demonstrates:
-
 Practical understanding of OS-level multitasking
-
 Scheduling algorithms implementation
-
 Memory/core resource management
-
 Inter-process control simulation
-
 Shell-like interaction in a terminal environment
+
 🎓 Semester Project – MilkyWay OS Simulator
-📍 FAST-NUCES | Spring 2025 
+📍 FAST-NUCES | Spring 2025
+## 👩‍💻 Developers
 👩‍💻 Team Members: Amna Noor (23F-0811), Rao Waleed (23F-0628)
