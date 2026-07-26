@@ -1,20 +1,53 @@
-# Operating-System-Simulator
-This project is a **terminal-based Operating System Simulator** written in **C**, built for educational purposes to demonstrate key OS concepts including **multitasking**, **process scheduling**, **memory management**, and **task control**. It simulates the functioning of an OS kernel managing various user-space programs.
+<h1 align="center">💻 Operating System Simulator</h1>
 
-## 🚀 Features
+<p align="center">
+  <strong>A Terminal-Based Operating System Simulator built in C, demonstrating core Operating System concepts including process scheduling, multitasking, memory management, and task control.</strong>
+</p>
 
-- **Multitasking environment** with process management
-- **Multi-level Process Scheduling:**
-  - High Priority: Round Robin
-  - Mid Priority: First Come First Serve (FCFS)
-  - Low Priority: Shortest Job First (SJF)
-- **User/Kernel Mode switching**
-- **Memory and Core management**
-- Interactive **menu-driven interface**
-- Task operations: Start, Minimize, Block, Resume
-- Includes 15+ simulated tasks (as separate executables)
+<p align="center">
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
+  <img src="https://img.shields.io/badge/Operating%20Systems-Project-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Process%20Scheduling-Implemented-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+</p>
 
-## 🧠 Included Tasks
+---
+
+# 📖 Overview
+
+**Operating System Simulator** is a terminal-based application developed in **C** as part of an **Operating Systems** course project.
+
+The simulator replicates the behavior of an operating system kernel by managing multiple user-space programs, scheduling processes, allocating system resources, and handling task execution. It provides a practical implementation of fundamental operating system concepts through an interactive command-line interface.
+
+The project demonstrates how an operating system coordinates process execution, manages CPU scheduling, switches between user and kernel modes, and controls multiple tasks simultaneously within a simulated environment.
+
+---
+
+# ✨ Features
+
+### ⚙️ Process Management
+
+- Multi-Tasking Environment
+- Process Creation & Execution
+- Process State Management
+- Start, Block, Resume & Minimize Tasks
+
+### 🧠 CPU Scheduling
+
+- High Priority Queue — Round Robin (RR)
+- Medium Priority Queue — First Come First Serve (FCFS)
+- Low Priority Queue — Shortest Job First (SJF)
+- Multi-Level Scheduling Strategy
+
+### 💾 System Management
+
+- Memory Management Simulation
+- Core/CPU Resource Management
+- User Mode & Kernel Mode Switching
+- Interactive Command-Line Interface
+
+### 📦 Built-in Applications
 
 - Stopwatch
 - Calculator
@@ -32,44 +65,122 @@ This project is a **terminal-based Operating System Simulator** written in **C**
 - Dice Roller
 - Basic Shell
 
-Each task runs as a separate process and demonstrates user-mode program execution under simulated OS control.
+---
 
-## 🛠️ Technologies
+# 🛠️ Technologies Used
 
-- Language: **C**
-- OS Concepts: Multilevel Scheduling, Process Queues, System Calls Simulation
-- Environment: Terminal/Command-line based (No GUI)
+| Technology | Purpose |
+|------------|---------|
+| C | Programming Language |
+| Operating System Concepts | Core Implementation |
+| Process Scheduling Algorithms | CPU Scheduling |
+| Memory Management | Resource Allocation |
+| Terminal / Command Line | User Interface |
 
-## 📂 Project Structure
+---
+
+# 📂 Project Structure
+
+```text
+Operating-System-Simulator
+│
+├── main.c
+├── main
+│
+├── tasks/
+│   ├── calculator.c
+│   ├── stopwatch.c
+│   ├── alarm_clock.c
+│   ├── guess_game.c
+│   ├── minesweeper.c
+│   ├── calendar.c
+│   ├── todo_list.c
+│   ├── notepad.c
+│   ├── file_manager.c
+│   ├── number_converter.c
+│   ├── timer.c
+│   ├── random_number_generator.c
+│   ├── quiz_game.c
+│   ├── dice_roller.c
+│   ├── basic_shell.c
+│   └── ...
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+# 🚀 Getting Started
+
+### Clone the Repository
 
 ```bash
-project/
-├── main.c                  # Main OS simulator code
-├── main                   # Compiled executable
-└── tasks/                 # Directory containing all tasks
-    ├── calculator.c
-    ├── stopwatch.c
-    ├── guess_game.c
-    └── ...
-⚙️ How to Run
-Compile the project:
+git clone https://github.com/USERNAME/Operating-System-Simulator.git
+```
+
+### Navigate to the Project
+
+```bash
+cd Operating-System-Simulator
+```
+
+### Compile the Simulator
+
+```bash
 gcc main.c -o main
-Compile individual tasks (example):
+```
+
+### Compile Individual Tasks
+
+Example:
+
+```bash
 gcc tasks/calculator.c -o tasks/calculator
-Do the same for other .c files in the tasks/ directory.
+```
 
-Run the OS Simulator:
+Compile the remaining task files in the same way.
+
+### Run the Simulator
+
+```bash
 ./main
+```
 
-📈 Learning Outcomes
-This project demonstrates:
-Practical understanding of OS-level multitasking
-Scheduling algorithms implementation
-Memory/core resource management
-Inter-process control simulation
-Shell-like interaction in a terminal environment
+---
 
-🎓 Semester Project – MilkyWay OS Simulator
-📍 FAST-NUCES | Spring 2025
-## 👩‍💻 Developers
-👩‍💻 Team Members: Amna Noor (23F-0811), Rao Waleed (23F-0628)
+# 🎯 Learning Outcomes
+
+This project strengthened my understanding of:
+
+- Operating System Fundamentals
+- Process Scheduling Algorithms
+- Round Robin Scheduling
+- First Come First Serve (FCFS)
+- Shortest Job First (SJF)
+- Multitasking
+- Process State Management
+- User & Kernel Mode Switching
+- Memory Management Concepts
+- Resource Allocation
+- System Programming in C
+- Debugging & Problem Solving
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, consider giving it a **Star ⭐** on GitHub.
+
+---
+
+<p align="center">
+Made with ❤️ using <strong>C</strong>
+</p>
