@@ -84,30 +84,8 @@ The project demonstrates how an operating system coordinates process execution, 
 ```text
 Operating-System-Simulator
 │
-├── main.c
-├── main
-│
-├── tasks/
-│   ├── calculator.c
-│   ├── stopwatch.c
-│   ├── alarm_clock.c
-│   ├── guess_game.c
-│   ├── minesweeper.c
-│   ├── calendar.c
-│   ├── todo_list.c
-│   ├── notepad.c
-│   ├── file_manager.c
-│   ├── number_converter.c
-│   ├── timer.c
-│   ├── random_number_generator.c
-│   ├── quiz_game.c
-│   ├── dice_roller.c
-│   ├── basic_shell.c
-│   └── ...
-│
-├── README.md
-├── LICENSE
-└── .gitignore
+├── README.md          # Project documentation
+└── project.zip        # Complete Operating System Simulator source code
 ```
 
 ---
